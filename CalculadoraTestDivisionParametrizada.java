@@ -11,6 +11,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 @DisplayName("PRUEBAS PARAMETRIZADAS DEL METODO division DE LA CLASE Calculadora ")
+//JUNIT 4
+
 @RunWith(value=Parameterized.class)
 public class CalculadoraTestDivisionParametrizada {
 	private int a,b,esperado;
